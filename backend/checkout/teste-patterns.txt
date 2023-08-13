@@ -1,0 +1,16 @@
+Dummy: Objetos que criamos apenas para completar a lista de parâmetros que 
+precisamos passar para invocar um determinado método 
+
+Stubs: Objetos que retornam repostas prontas, definidas para um determinado teste,
+por questões de performance ou segurança (exemplo: quando eu executar o método
+fazer pedido preciso que o método pegar cotação do dólar retorne R$3,00)
+
+Spies: Objetos que "espionam" a execução do método e armazenam os resultados 
+para verificação posterior (exemplo: quando eu executar o método fazer pedido preciso saber 
+se o método enviar email foi invocado internamente e com quais parâmetros)
+
+Mocks: Objetos similares a stubs e spies, permitem que você diga exatamente o que 
+quer que ele faça e  oteste vai quebrar se isso não acontecer 
+
+Fake: Objetos que tem implementações que simulam o funcionamento da instância 
+real, qual seria ultilizada em produção (exemplo: uma base de dados em memória)
